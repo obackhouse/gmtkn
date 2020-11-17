@@ -51,7 +51,8 @@ from sets import W4_11, \
                  MCONF, \
                  SCONF, \
                  UPU23, \
-                 BUT14DIOL
+                 BUT14DIOL, \
+                 GW100
 
 sets = { 'W4_11'     : W4_11, \
          'G21EA'     : G21EA, \
@@ -106,5 +107,6 @@ sets = { 'W4_11'     : W4_11, \
          'MCONF'     : MCONF, \
          'SCONF'     : SCONF, \
          'UPU23'     : UPU23, \
-         'BUT14DIOL' : BUT14DIOL
+         'BUT14DIOL' : BUT14DIOL, \
+         'GW100'     : GW100,
 }
