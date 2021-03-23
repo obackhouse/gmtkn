@@ -122,8 +122,8 @@ def __getattr__(key):
         2. Check if key is a named system in the W4-11 set, if so,
            return the system
 
-        3. Check if key is a named system in any other set, with
-           sets checked alphabetically
+        3. Check if key is a named system in any other set except
+           for GAPS, with sets checked alphabetically
 
         4. Else, raise an error.
     '''
@@ -139,8 +139,9 @@ def __getattr__(key):
 
     # 3.
     for name in sorted(sets.keys()):
-        if key in sets[name].systems:
-            return sets[name].systems[key]
+        if name != 'GAPS':
+            if key in sets[name].systems:
+                return sets[name].systems[key]
 
     # 4.
     raise IndexError('Could not find item %s in gmtkn module.' % key)
