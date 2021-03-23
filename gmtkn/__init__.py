@@ -112,3 +112,35 @@ sets = { 'W4_11'     : W4_11, \
          'GW100'     : GW100, \
          'GAPS'      : GAPS,
 }
+
+def __getattr__(key):
+    '''
+    Searches the module for a particular key. Order of operations:
+
+        1. Check if key is a named test set, if so, return the set
+
+        2. Check if key is a named system in the W4-11 set, if so,
+           return the system
+
+        3. Check if key is a named system in any other set, with
+           sets checked alphabetically
+
+        4. Else, raise an error.
+    '''
+
+
+    # 1.
+    if key in sets:
+        return sets[key]
+
+    # 2.
+    if key in sets['W4_11'].systems:
+        return sets['W4_11'].systems[key]
+
+    # 3.
+    for name in sorted(sets.keys()):
+        if key in sets[name].systems:
+            return sets[name].systems[key]
+
+    # 4.
+    raise IndexError('Could not find item %s in gmtkn module.' % key)
