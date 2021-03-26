@@ -131,7 +131,7 @@ def __getattr__(key):
 
     # 1.
     if key in sets:
-        return sets[key]
+        return sets[key].systems
 
     # 2.
     if key in sets['W4_11'].systems:
