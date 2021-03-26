@@ -1,116 +1,61 @@
-from sets import W4_11, \
-                 G21EA, \
-                 G21IP, \
-                 DIPCS10, \
-                 PA26, \
-                 SIE4x4, \
-                 ALKBDE10, \
-                 YBDE18, \
-                 AL2X6, \
-                 HEAVYSB11, \
-                 NBPRC, \
-                 ALK8, \
-                 RC21, \
-                 G2RC, \
-                 FH51, \
-                 TAUT15, \
-                 DC13, \
-                 MB16_43, \
-                 DARC, \
-                 RSE43, \
-                 BSR36, \
-                 CDIE20, \
-                 ISO34, \
-                 ISOL24, \
-                 C60ISO, \
-                 PArel, \
-                 BH76, \
-                 BHPERI, \
-                 BHDIV10, \
-                 INV24, \
-                 BHROT27, \
-                 PX13, \
-                 WCPT18, \
-                 RG18, \
-                 ADIM6, \
-                 S22, \
-                 S66, \
-                 HEAVY28, \
-                 WATER27, \
-                 CARBHB12, \
-                 PNICO23, \
-                 HAL59, \
-                 AHB21, \
-                 CHB6, \
-                 IL16, \
-                 IDISP, \
-                 ICONF, \
-                 ACONF, \
-                 Amino20x4, \
-                 PCONF21, \
-                 MCONF, \
-                 SCONF, \
-                 UPU23, \
-                 BUT14DIOL, \
-                 GW100, \
-                 GAPS
+import sets as _sets
 
-sets = { 'W4_11'     : W4_11, \
-         'G21EA'     : G21EA, \
-         'G21IP'     : G21IP, \
-         'DIPCS10'   : DIPCS10, \
-         'PA26'      : PA26, \
-         'SIE4x4'    : SIE4x4, \
-         'ALKBDE10'  : ALKBDE10, \
-         'YBDE18'    : YBDE18, \
-         'AL2X6'     : AL2X6, \
-         'HEAVYSB11' : HEAVYSB11, \
-         'NBPRC'     : NBPRC, \
-         'ALK8'      : ALK8, \
-         'RC21'      : RC21, \
-         'G2RC'      : G2RC, \
-         'FH51'      : FH51, \
-         'TAUT15'    : TAUT15, \
-         'DC13'      : DC13, \
-         'MB16_43'   : MB16_43, \
-         'DARC'      : DARC, \
-         'RSE43'     : RSE43, \
-         'BSR36'     : BSR36, \
-         'CDIE20'    : CDIE20, \
-         'ISO34'     : ISO34, \
-         'ISOL24'    : ISOL24, \
-         'C60ISO'    : C60ISO, \
-         'PArel'     : PArel, \
-         'BH76'      : BH76, \
-         'BHPERI'    : BHPERI, \
-         'BHDIV10'   : BHDIV10, \
-         'INV24'     : INV24, \
-         'BHROT27'   : BHROT27, \
-         'PX13'      : PX13, \
-         'WCPT18'    : WCPT18, \
-         'RG18'      : RG18, \
-         'ADIM6'     : ADIM6, \
-         'S22'       : S22, \
-         'S66'       : S66, \
-         'HEAVY28'   : HEAVY28, \
-         'WATER27'   : WATER27, \
-         'CARBHB12'  : CARBHB12, \
-         'PNICO23'   : PNICO23, \
-         'HAL59'     : HAL59, \
-         'AHB21'     : AHB21, \
-         'CHB6'      : CHB6, \
-         'IL16'      : IL16, \
-         'IDISP'     : IDISP, \
-         'ICONF'     : ICONF, \
-         'ACONF'     : ACONF, \
-         'Amino20x4' : Amino20x4, \
-         'PCONF21'   : PCONF21, \
-         'MCONF'     : MCONF, \
-         'SCONF'     : SCONF, \
-         'UPU23'     : UPU23, \
-         'BUT14DIOL' : BUT14DIOL, \
-         'GW100'     : GW100, \
-         'GAPS'      : GAPS,
+sets = { 'W4_11'     : _sets.W4_11, \
+         'G21EA'     : _sets.G21EA, \
+         'G21IP'     : _sets.G21IP, \
+         'DIPCS10'   : _sets.DIPCS10, \
+         'PA26'      : _sets.PA26, \
+         'SIE4x4'    : _sets.SIE4x4, \
+         'ALKBDE10'  : _sets.ALKBDE10, \
+         'YBDE18'    : _sets.YBDE18, \
+         'AL2X6'     : _sets.AL2X6, \
+         'HEAVYSB11' : _sets.HEAVYSB11, \
+         'NBPRC'     : _sets.NBPRC, \
+         'ALK8'      : _sets.ALK8, \
+         'RC21'      : _sets.RC21, \
+         'G2RC'      : _sets.G2RC, \
+         'FH51'      : _sets.FH51, \
+         'TAUT15'    : _sets.TAUT15, \
+         'DC13'      : _sets.DC13, \
+         'MB16_43'   : _sets.MB16_43, \
+         'DARC'      : _sets.DARC, \
+         'RSE43'     : _sets.RSE43, \
+         'BSR36'     : _sets.BSR36, \
+         'CDIE20'    : _sets.CDIE20, \
+         'ISO34'     : _sets.ISO34, \
+         'ISOL24'    : _sets.ISOL24, \
+         'C60ISO'    : _sets.C60ISO, \
+         'PArel'     : _sets.PArel, \
+         'BH76'      : _sets.BH76, \
+         'BHPERI'    : _sets.BHPERI, \
+         'BHDIV10'   : _sets.BHDIV10, \
+         'INV24'     : _sets.INV24, \
+         'BHROT27'   : _sets.BHROT27, \
+         'PX13'      : _sets.PX13, \
+         'WCPT18'    : _sets.WCPT18, \
+         'RG18'      : _sets.RG18, \
+         'ADIM6'     : _sets.ADIM6, \
+         'S22'       : _sets.S22, \
+         'S66'       : _sets.S66, \
+         'HEAVY28'   : _sets.HEAVY28, \
+         'WATER27'   : _sets.WATER27, \
+         'CARBHB12'  : _sets.CARBHB12, \
+         'PNICO23'   : _sets.PNICO23, \
+         'HAL59'     : _sets.HAL59, \
+         'AHB21'     : _sets.AHB21, \
+         'CHB6'      : _sets.CHB6, \
+         'IL16'      : _sets.IL16, \
+         'IDISP'     : _sets.IDISP, \
+         'ICONF'     : _sets.ICONF, \
+         'ACONF'     : _sets.ACONF, \
+         'Amino20x4' : _sets.Amino20x4, \
+         'PCONF21'   : _sets.PCONF21, \
+         'MCONF'     : _sets.MCONF, \
+         'SCONF'     : _sets.SCONF, \
+         'UPU23'     : _sets.UPU23, \
+         'BUT14DIOL' : _sets.BUT14DIOL, \
+         'GW100'     : _sets.GW100, \
+         'GAPS'      : _sets.GAPS,
 }
 
 def __getattr__(key):
