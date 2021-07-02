@@ -53,6 +53,7 @@ from sets import W4_11, \
                  UPU23, \
                  BUT14DIOL, \
                  GW100, \
-                 GAPS
+                 GAPS, \
+                 MRADC
 
 
