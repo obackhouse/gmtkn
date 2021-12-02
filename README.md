@@ -7,3 +7,4 @@ Also included are:
 * GAPS: https://pubs.acs.org/doi/10.1021/acs.jctc.9b00322
 * MRADC: https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.0c00778
 * ACC24: https://pubs.acs.org/doi/10.1021/acs.jctc.5b00871
+* S30L: https://pubs.acs.org/doi/abs/10.1021/acs.jctc.5b00296
