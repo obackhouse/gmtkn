@@ -55,5 +55,6 @@ from sets import W4_11, \
                  GW100, \
                  GAPS, \
                  MRADC, \
-                 ACC24
+                 ACC24, \
+                 S30L
 
