@@ -58,7 +58,8 @@ sets = { 'W4_11'     : _sets.W4_11, \
          'GAPS'      : _sets.GAPS, \
          'MRADC'     : _sets.MRADC, \
          'ACC24'     : _sets.ACC24, \
-         'S30L'      : _sets.S30L,
+         'S30L'      : _sets.S30L, \
+         'BH9'       : _sets.BH9,
 }
 
 def __getattr__(key):
